@@ -1,4 +1,6 @@
-const snackFoods = 'apple and peanuts are healthy.';
-const array = snackFoods.split(' ');
-const word = array[2];
-console.log(word);
+
+const arr = ['red', 'blue', 'yellow', 'green', 'pink'];
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(i + ',' + arr[i]);
+}
