@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <script src="../scripts/main.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Dogs</title>
+    </head>
+
+    <body>
+
+        <header class="page-header">
+            <!-- <div class="header-image"><img src="../images/header-image.jpg" alt="header image"> </div> -->
+            <div class="header-logo"></div>
+            <h1 class="main-title">Seattle's Premiere dog adoption agency</h1>
+            <div class="checkout-balance">
+                <img class="cart-icon" src="../images/cart-icon.svg" alt="header image">
+                <span class="dollar">$1234.56</span>
+            </div>
+            <a class="button-checkout" href="checkout.html">checkout</a>
+        </header>
+    
+        <nav class="topnav">
+            <a class="navigation-link" href="index.html">Home</a> /
+            <a class="navigation-link" href="all-dogs.html">Dogs</a> /
+            <a class="navigation-link" href="blog.html">Blog</a>
+        </nav>
+
+      <main>
+        <h3 class="title-all-dogs">Here are all of our dogs!</h3>
+
+        <div class="dog-grid">
+
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/murphy-card.jpg" alt="murphy card" onclick="showDogInformation('Murphy', 'German Shepard', '$123.45')">
+                <h4 class="dog-name">Murphy</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+
+
+
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/poppy-card.jpg" alt="poppy card" onclick="showDogInformation('Poppy', 'Havanese Dog', '$123.45')">
+                <h4 class="dog-name">Poppy</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+
+
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/jack-card.jpg" alt="jack card" onclick="showDogInformation('Jack', 'Beagle Dog', '$123.45')">
+                <h4 class="dog-name">Jack</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+
+
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/duffy-card.jpg" alt="duffy card" onclick="showDogInformation('Duffy', 'Basset Hound', '$123.45')">
+                <h4 class="dog-name">Duffy</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+
+
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/lucas-card.jpg" alt="lucas card" onclick="showDogInformation('Lucas', 'Doberman Dog', '$123.45')">
+                <h4 class="dog-name">Lucas</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+
+
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/jake-card.jpg" alt="jake card" onclick="showDogInformation('Jake', 'Labrador Retriever', '$123.45')">
+                <h4 class="dog-name">Jake</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+
+
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/angus-card.jpg" alt="angus card" onclick="showDogInformation('Angus', 'Bull Dog', '$123.45')">
+                <h4 class="dog-name">Angus</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/violet-card.jpg" alt="violet card" onclick="showDogInformation('Violet', 'Sheltie Dog', '$123.45')">
+                <h4 class="dog-name">Violet</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/piper-card.jpg" alt="piper card" onclick="showDogInformation('Piper', 'Irish Setter', '$123.45')">
+                <h4 class="dog-name">Piper</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/maximus-card.jpg" alt="maximus card" onclick="showDogInformation('Maximus', 'French Bulldog', '$123.45')">
+                <h4 class="dog-name">Maximus</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/luna-card.jpg" alt="luna card" onclick="showDogInformation('Luna', 'Golden Retriever', '$123.45')">
+                <h4 class="dog-name">Luna</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+            <div class="dog-card">
+                <img class="dog-picture" src="../images/stella-card.jpg" alt="stella card" onclick="showDogInformation('Stella', 'Pembroke Welsh Corgi', '$123.45')">
+                <h4 class="dog-name">Stella</h4>
+                <p class="dog-cost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="dog-description">Corrum volorit iandae nimax cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                <a class="dog-link" onclick="adoptDog(123.45)">Adopt</a>
+            </div>
+        </div>
+
+
+      </main>
+
+      <footer class="page-footer">
+        <img class="footer-logo" src="../images/adoptadog-logo.svg" alt="adopt a dog logo">
+        <p class="footer-text">Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>
+            sseque invenienihil imaximu scideru ptistiusam consequauat</p>
+        <nav class="footernav">
+            <a href="index.html">Home /</a>
+            <a href="all-dogs.html">Dogs /</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        <p class="copyright">&#169;2018 Adoptadog, LLC | Seattle, WA</p>
+    </footer>
+
+    </body>
+
+</html>
